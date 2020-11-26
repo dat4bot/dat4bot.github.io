@@ -58149,7 +58149,7 @@ c=H.aU(H.ar(r),H.ao(r),H.bj(r),6,0,0,0,!1)
 if(!H.ad(c))H.f(H.a0(c))
 q=new P.Q(c,!1)
 P.cx("Inicio Jornada: "+q.i(0))
-c=H.aU(H.ar(r),H.ao(r),H.bj(r),20,59,0,0,!1)
+c=H.aU(H.ar(r),H.ao(r),H.bj(r),20,0,0,0,!1)
 if(!H.ad(c))H.f(H.a0(c))
 p=new P.Q(c,!1)
 P.cx("Fin Jornada: "+p.i(0))
@@ -58170,38 +58170,40 @@ l.sk(0,0)
 k=d.dy
 k.sk(0,0)
 C.e.i(o)
-for(j=0,i=!0,h=0;h<n;++h){g=a.b
-f=j+1
-e=a.a+6e4
-if(j<480){a=new P.Q(e,g)
-a.AG(e,g)
-if(H.cF(a)>=H.cF(q)&&H.cF(a)<=H.cF(p))c.sk(0,c.a+0.0166666667)
+for(j=0,i=!0,h=0;h<n;++h){g=j+1
+if(j<480){if(H.cF(a)>=H.cF(q)&&H.cF(a)<=H.cF(p))c.sk(0,c.a+0.0166666667)
 else m.sk(0,m.a+0.0166666667)
-j=f}else{a=new P.Q(e,g)
-a.AG(e,g)
-if(H.cF(a)>=H.cF(q)&&H.cF(a)<=H.cF(p))b.sk(0,b.a+0.0166666667)
+f=a.a+6e4
+e=a.b
+a=new P.Q(f,e)
+a.AG(f,e)
+j=g}else{if(H.cF(a)>=H.cF(q)&&H.cF(a)<=H.cF(p))b.sk(0,b.a+0.0166666667)
 else l.sk(0,l.a+0.0166666667)
-if(f>420&&i&&H.lt(a)!==7){g=l.a
-if(g>0){j=f-0.0166666667
-l.sk(0,g-0.0166666667)
-k.sk(0,k.a+0.0166666667)}else{g=b.a
-if(g>0){j=f-0.0166666667
-b.sk(0,g-0.0166666667)
-k.sk(0,k.a+0.0166666667)}else{g=m.a
-if(g>0){j=f-0.0166666667
-m.sk(0,g-0.0166666667)
-k.sk(0,k.a+0.0166666667)}else{g=c.a
-if(g>0){j=f-0.0166666667
-c.sk(0,g-0.0166666667)
-k.sk(0,k.a+0.0166666667)}else j=f}}}if(k.a>=1)i=!1}else j=f}}g=d.ch
-g.sk(0,c.a+b.a+m.a+l.a)
-P.cx("Total de Horas trabajadas: "+J.ah(g.a,2))
+if(g>420&&i&&H.lt(a)!==7){f=l.a
+if(f>0){j=g-0.0166666667
+l.sk(0,f-0.0166666667)
+k.sk(0,k.a+0.0166666667)}else{f=b.a
+if(f>0){j=g-0.0166666667
+b.sk(0,f-0.0166666667)
+k.sk(0,k.a+0.0166666667)}else{f=m.a
+if(f>0){j=g-0.0166666667
+m.sk(0,f-0.0166666667)
+k.sk(0,k.a+0.0166666667)}else{f=c.a
+if(f>0){j=g-0.0166666667
+c.sk(0,f-0.0166666667)
+k.sk(0,k.a+0.0166666667)}else j=g}}}if(k.a>=1)i=!1}else j=g
+f=a.a+6e4
+e=a.b
+a=new P.Q(f,e)
+a.AG(f,e)}}f=d.ch
+f.sk(0,c.a+b.a+m.a+l.a)
+P.cx("Total de Horas trabajadas: "+J.ah(f.a,2))
 P.cx("Total de Horas Diurnas: "+J.ah(c.a,2))
 P.cx("Total de Horas Extra Diurnas: "+J.ah(b.a,2))
 P.cx("Total de Horas Nocturnas: "+J.ah(m.a,2))
 P.cx("Total de Horas Extra Nocturnas: "+J.ah(l.a,2))
 P.cx("Total de Horas de Almuerzo: "+J.ah(k.a,2))
-g.b6()
+f.b6()
 c.b6()
 b.b6()
 m.b6()
