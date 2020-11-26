@@ -8,7 +8,7 @@ const RESOURCES = {
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
 "assets/AssetManifest.json": "2efbb41d7877d10aac9d091f58ccd7b9",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
-"main.dart.js": "5fd5f2197bc1d5ac52aa715b85b18dbe",
+"main.dart.js": "c4f2555eb8da7b49fc1843f855d0c8b1",
 "version.json": "382676e46955c4bebe5aacbfe73f2d99",
 "index.html": "604ab46d99fe4b44fb4027ecd0d135d2",
 "/": "604ab46d99fe4b44fb4027ecd0d135d2"
